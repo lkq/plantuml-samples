@@ -1,0 +1,17 @@
+ link types:
+ dotted line (vertical: .., horizontal: .)
+ straight line (vertical: --, horizontal: -)
+ arrows (..> -->)
+
+@startuml
+
+database "Data Base" as dataBase
+
+User --> [Web UI]
+[Web UI] -> [User Endpoint]
+dataBase <.. [User Endpoint] : select user
+
+[Component] -left-> left
+[Component] -right-> right
+[Component] .up.> up
+[Component] .down..> down

@@ -1,0 +1,13 @@
+@startuml
+
+[Component] as comp
+
+note left of comp : single line note
+
+note right of comp
+  multiple
+  line
+  note
+end note
+
+@enduml

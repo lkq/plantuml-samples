@@ -1,0 +1,15 @@
+@startuml
+
+skinparam componentStyle uml2
+
+[UML2 Component]
+
+skinparam componentStyle uml1
+
+[UML1 Component]
+
+skinparam componentStyle rectangle
+
+[No UML Component]
+
+@enduml
