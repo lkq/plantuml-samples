@@ -1,9 +1,9 @@
- link types:
- dotted line (vertical: .., horizontal: .)
- straight line (vertical: --, horizontal: -)
- arrows (..> -->)
+'  link types:
+'  dotted line (vertical: .., horizontal: .)
+'  straight line (vertical: --, horizontal: -)
+'  arrows (..> -->)
 
-@startuml
+@startuml "links"
 
 database "Data Base" as dataBase
 

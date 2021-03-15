@@ -1,4 +1,4 @@
-@startuml
+@startuml "directions"
 'top to bottom direction
 left to right direction
 user1 --> (Usecase 1)
