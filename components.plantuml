@@ -1,0 +1,12 @@
+use [] or component keyword to define components
+use the as keyword to define alias
+
+@startuml Components
+
+[User]
+[Authentication] as auth
+component Login
+component "Login\nComponent"
+component [Wrapped\nText] as Comp4
+
+@enduml

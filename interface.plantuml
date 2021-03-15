@@ -1,0 +1,13 @@
+use () or interface keyword to define interfaces
+use the as keyword to define alias
+
+@startuml
+
+() "First Interface"
+() "Another interface" as Interf2
+interface Interf3
+interface "Last\ninterface" as Interf4
+
+[component]
+footer //Adding "component" to force diagram to be a **component diagram**//
+@enduml

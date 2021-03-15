@@ -1,0 +1,29 @@
+
+@startuml Groups
+
+package "Package Group" {
+    component "Package Component" as packageComp
+    [Package Component 2] as packageComp2
+}
+
+node "Node Group" {
+    component "Node Component" as nodeComp
+    folder "This is my folder" {
+        [Folder]
+    }
+}
+
+cloud "Cloud Group" {
+    component "Cloud Component" as cloudComp
+}
+
+database "Database Group" {
+  folder "database folder" {
+    [Database Folder]
+  }
+  frame "database frame" {
+    [Database Frame]
+  }
+}
+
+@enduml
